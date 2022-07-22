@@ -1,7 +1,7 @@
 # SoftwareMideChallenge
 
-API is connected to Azure database. <br/>
-Authorization uses bearer token.<br/>
+API is connected to the Azure database. <br/>
+Authorization uses a bearer token.<br/>
 
 example of users:<br/>
 Login: admin<br/>
