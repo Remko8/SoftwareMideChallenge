@@ -1,4 +1,4 @@
-# SoftwareMideChallenge
+# SoftwareMindChallenge
 
 API is connected to the Azure database. <br/>
 Authorization uses a bearer token.<br/>
