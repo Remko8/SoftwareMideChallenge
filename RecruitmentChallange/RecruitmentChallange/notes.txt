@@ -1,0 +1,11 @@
+﻿
+
+// PM Command for creating Models from Database:
+Scaffold-DbContext -Connection Name=MsSqlAzure Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -f
+
+// In case of connection string error:
+// In the file WebAppDBContext, add IConfigurationRoot to the OnConfiguring method to get a connection string 
+IConfigurationRoot configuration = new ConfigurationBuilder()
+.SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
+.AddJsonFile("appsettings.json")
+.Build();
